@@ -19,7 +19,7 @@ const routes = Object.keys(ROUTES).map((route) => {
 });
 
 export default function FileRoutes() {
-  // eslint-disable-next-line no-underscore-dangle
+  // eslint-disable-next-line no-underscore-dangle //
   const App = preserve?._app || Fragment;
   const NotFound = preserve?.['404'] || Fragment;
 
